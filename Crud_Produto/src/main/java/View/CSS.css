@@ -1,0 +1,165 @@
+
+
+body {
+    overflow-x: hidden
+}
+
+#erro-total {
+    width: 700px;
+    height: 270px;
+    margin: 15px 0
+}
+
+
+.contato input {
+    width: 100%;
+    padding: 10px 20px;
+    background: #eee;
+    border: #ccc;
+    color: #666;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    outline: none!important
+}
+
+.contato textarea {
+    width: 100%;
+    padding: 10px 20px;
+    background: #eee;
+    border: #ccc;
+    color: #666;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    outline: none!important;
+    resize: none;
+    height: 200px
+}
+
+.contato .submit {
+    cursor: pointer;
+    background: #016086;
+    color: #fff
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0
+}
+
+.slider.resp {
+    display: none
+}
+
+.topo-total {
+    position: relative
+}
+
+
+@media only screen and (max-width:1200px) {
+    * {
+        max-width: 100%;
+        box-sizing: border-box
+    }
+    .slider * {
+        max-width: unset
+    }
+    .menu-resp {
+        display: block;
+        background: url(https://www.projetoweb.com.br/sites-padrao-prontos-simples-baratos-lancamentos/padrao2-programado/template/pw-images/menu-resp.png) center no-repeat;
+        padding: 40px;
+        cursor: pointer
+    }
+    .overlay {
+        background: rgba(0, 0, 0, 0.85);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 2
+    }
+    .fechar {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: -50px;
+        right: 0;
+        z-index: 999
+    }
+    .fechar i {
+        color: #dd742f;
+        font-size: 40px
+    }
+    .menu {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3
+    }
+    .menu li {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        opacity: 1!important;
+        transform: translate(0%) scale(1)!important
+    }
+    .menu li a.ativo {
+        background: none;
+        box-shadow: none
+    }
+    .rodape div {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .slider.resp {
+        display: block
+    }
+   
+}
+
+@media only screen and (max-width:750px) {
+    .slogan {
+        font: 30px/42px calibri;
+        margin: 20px auto 225px
+    }
+    .slogan span {
+        font: 22px calibri
+    }
+    .box-04 .box input {
+        width: 100%!important;
+    }
+    .slogan {
+        font: 40px/25px calibri!important
+    }
+   
+}
+
+@media only screen and (max-width:600px) {
+    .slogan {
+        display: none
+    }
+    .global {
+        margin-top: 0!important
+    }
+    .topo > div {
+        margin: 10px 0
+    }
+    .menu-resp {
+        margin-bottom: 30px
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .global {
+        margin-top: -10px!important;
+    }
+}
