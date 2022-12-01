@@ -1,8 +1,5 @@
 package Model;
 
-
-import java.util.Date;
-
 public class EntidadeDominio implements IEntidade{
 	
 	protected Integer id;

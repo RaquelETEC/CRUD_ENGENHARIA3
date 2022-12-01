@@ -1,14 +1,15 @@
 
 package eng3.fatec.controle.web.vh;
 
-import java.io.IOException;
-
 import eng3.fatec.core.aplicacao.Resultado;
+import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import Model.IEntidade;
-import Model.EntidadeDominio;
 
-/*
-public interface IViewHelper {
+
+public interface IViewHelper{
 
 	public IEntidade getEntidade(HttpServletRequest request);
 	
@@ -17,4 +18,3 @@ public interface IViewHelper {
 	
 	public void setView(Resultado resultado, ServletConfig config);
 }
-*/

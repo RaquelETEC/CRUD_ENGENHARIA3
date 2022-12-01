@@ -18,7 +18,7 @@ import java.util.logging.Logger;
             Logger.getLogger(Conexao.class.getName()).log(Level.SEVERE, null, ex);
         }
         try {
-            conexao = DriverManager.getConnection("jdbc:mysql://localhost/eng","root",null);
+            conexao = DriverManager.getConnection("jdbc:mysql://localhost:3306/eng","root",null);
             
         } catch (SQLException ex) {
             System.out.println("erro no localhost"+ex);

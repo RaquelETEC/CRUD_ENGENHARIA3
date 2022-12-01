@@ -2,8 +2,8 @@
 package Model;
 
 
-public class Produto {
-   private int id; 
+public class Produto extends EntidadeDominio{
+
    private String codigo ;
    private String descricao ;
    private Double preco_compra;
@@ -92,11 +92,6 @@ public class Produto {
         this.marca = marca;
     }
 
-   
-   
-    public int getId() {
-        return id;
-    }
 
     public String getCodigo() {
         return codigo;
